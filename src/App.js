@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const nayoks = ['rubel', 'bapparaz', 'chowdhur', 'algmir']
-
+  // this the way make dynamike style
   const cinemas = [
     { nayok: 'koober', nayika: 'moushowmi' },
     { nayok: 'ronbel', nayika: 'moush' },
@@ -19,6 +19,7 @@ function App() {
     <div className="App">
       <h2>hello</h2>
       <ul>
+        {/* using map hold all from array of object a and show ing in brower what ever add in sytem all show even u add new */}
         {
           nayoks.map(nayok => <li>{nayok}</li>)
         }
